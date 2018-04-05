@@ -6,6 +6,6 @@ Use eg. as follows:
 
 ```
 git clone https://github.com/UweMenges/shellsnippets.git ~/.config/shell
-[ -d "$HOME/.config/shell" ] && for script in "$HOME/.config/shell"/*.sh; do . "$script"; done
+echo '[ -d "$HOME/.config/shell" ] && for script in "$HOME/.config/shell"/*.sh; do . "$script"; done' >> ~/.bashrc
 ```
 
